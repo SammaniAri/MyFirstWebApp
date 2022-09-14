@@ -1,0 +1,199 @@
+*{padding:0;
+    margin:0;
+    box-sizing: border-box;}
+
+html{
+    width: 100%;
+    height: 100%;}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,82,110,1) 31%, rgba(0,212,255,1) 100%);
+}
+
+/* the image in the home page*/
+.image4{  
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(20px 20px 20px #090f44);  
+}
+img {
+    opacity: 1.0;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+  }
+
+header{
+    padding:  5%;
+    width: 100%;
+}
+/* applies to the things in the desktop screen */
+@media only screen and (min-width: 600px) {
+     header{
+   /*  border-color: black;
+        border-style: solid;*/
+        width: 100%;
+        
+    }
+
+/* the music videos in music.html */
+   .utube{
+    width: 24rem;
+    height: 12.05rem;
+    margin: 0.5rem;
+   }
+ 
+
+    .container {
+     /* background-color: rgb(88, 150, 226);*/
+      display: flex 1;
+      flex-direction: row;
+      height: 80%;
+      width: 100%;
+      height: 100%;
+    
+    }
+
+    .sideBar{
+        width: 35%;
+         height:100%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+    
+    .bigContentBox{
+    display: flex;
+    flex-direction: row;
+     
+    
+    }
+    footer{
+        padding: 5%;
+    width: 100%;
+    height: 10%;
+    }
+    
+    
+    
+}  
+/* navigarion side bar*/
+.menuItem:hover{
+    background-color:#0E3A58;
+}
+.menuItem{
+    padding: 1rem;
+}
+
+.sideBar{
+    width: 30rem;
+    height:100%;
+       display: flex;
+       flex-direction: column; 
+       color: white;      
+}
+
+a:link { text-decoration: none; 
+color:white}
+
+a:visited { text-decoration: none; 
+color: white;}
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+/* the gigantic container which contains both the sidebar as well as the big container.
+big container has two small boxes namely, content  1 and content 2 */
+.container{
+    display:flex;
+    flex:1; 
+    padding: 2rem;
+    height:80%;
+
+ }
+
+.content1{
+ justify-content: center;
+
+}
+
+/*audioFiles contains the audio files in music.html*/
+.audioFiles{
+padding: 0.5%;
+margin:2rem;
+ 
+}
+
+.content2{
+justify-content: center;
+font-size: large;
+width: 40rem;
+}
+
+/*h1 in the fanClub.html*/
+.underConstruction{
+    color:white
+}
+/*h3 in the present.html*/
+h3{
+    text-align: justify;
+}
+
+/* videoFiles contains the CSS styles of content2 section in music.html   */
+.videoFiles{
+   flex-direction: row;
+    font-size: large;  
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    display: flex;
+}
+/*  the heading of the home page*/ 
+.Name{
+    color :black;
+  font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding:  1%;
+}
+
+/* text in the home page */ 
+.Intro{
+    color :black;
+ 
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    /* text-align justifies the text in the flexbox*/
+    text-align: justify;
+    padding: 10%;
+    justify-content: center                             ;
+    align-items: center;
+}
+
+/* song in the home page */ 
+.audioButton{
+    padding:10%   
+}
+.audioButton:hover{
+    opacity: 0.5;
+}
+ 
+
+footer{
+  
+    padding: 5%;
+width: 100%;
+color: white;
+}
+ /* the embeded youtube video in present.html*/
+ .utubeEmbeded{
+    width: 30rem;
+    height: 15.05rem;
+    margin: 2rem;
+   }
+ 
