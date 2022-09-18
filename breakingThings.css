@@ -21,11 +21,13 @@ background:#0E3A58
     filter: drop-shadow(20px 20px 20px #090f44);  
 }
 
-img {
-    opacity: 1.0;
+  .imageInHomePage{
+    opacity: 1.0;  
+    max-width: 500px;
+    max-height: 500px;
   }
   
-  img:hover {
+  .imageInHomePage:hover {
     opacity: 0.5;
   }
 
