@@ -54,7 +54,7 @@ header{
        display: flex;
        flex-direction: column; 
        color: white; 
-       font-family: myFirstFont, sans-serif;     
+    
 }
 /* the word 'Menu' at the top of the sidebar */
 .Menu{
@@ -103,7 +103,7 @@ width: 40rem;
  /*margin-top: 5rem; */
  padding:3rem;
  color: white;
- font-family: myFirstFont, sans-serif;
+ 
 }
 
 /*h1 in the fanClub.html*/
@@ -135,7 +135,7 @@ h1,h2,h3{
     font-family: 'Inter', sans-serif;
     text-align: center;
     padding:  1%;
-    font-family: myFirstFont, sans-serif;
+   
 }
 
 /* text in the home page */ 
@@ -148,7 +148,7 @@ h1,h2,h3{
     padding: 5%;
     justify-content: center                             ;
     align-items: center;
-    font-family: myFirstFont, sans-serif;
+   
 }
  
 
@@ -165,7 +165,7 @@ footer{
  width: 100%; 
 color: white;
 height: 10%;
-font-family: myFirstFont, sans-serif;
+ 
 }
  /* the embeded youtube video in present.html*/
  .utubeEmbeded{
@@ -194,7 +194,8 @@ body{
 
 .Name{
     color :black;
-    font-family: myFirstFont, sans-serif;
+    font-family: 'Inter', sans-serif;
+    
 }
 
     .container {
@@ -243,7 +244,7 @@ h1,h2,h3{
     padding: 5%;
     justify-content: center                             ;
     align-items: center;
-    font-family: myFirstFont, sans-serif;
+    
 }
 }
 
