@@ -6,12 +6,15 @@ html{
     width: 100%;
     height: 100%;}
 
+    @font-face {
+        font-family: myFirstFont;
+        src: url(customFont/metalsmith.ttf);
+    }
 body{
     height: 100%;
     max-width: 100%;
     /*width: 100%; */
-    background: rgb(2,0,36);
-background:#0E3A58
+background:#0E3A58 
 }
 
 /* the image in the home page*/
@@ -31,7 +34,7 @@ background:#0E3A58
     opacity: 0.5;
   }
 
-header{
+header{ 
     padding:  5%;
     width: 100%;
 }   
@@ -50,7 +53,8 @@ header{
     height:100%;
        display: flex;
        flex-direction: column; 
-       color: white;      
+       color: white; 
+       font-family: myFirstFont, sans-serif;     
 }
 /* the word 'Menu' at the top of the sidebar */
 .Menu{
@@ -99,6 +103,7 @@ width: 40rem;
  /*margin-top: 5rem; */
  padding:3rem;
  color: white;
+ font-family: myFirstFont, sans-serif;
 }
 
 /*h1 in the fanClub.html*/
@@ -110,6 +115,7 @@ width: 40rem;
 h1,h2,h3{
     text-align: justify;
     color: white;
+    font-family: myFirstFont, sans-serif; 
 }
 
 /* videoFiles contains the CSS styles of content2 section in music.html   */
@@ -129,6 +135,7 @@ h1,h2,h3{
     font-family: 'Inter', sans-serif;
     text-align: center;
     padding:  1%;
+    font-family: myFirstFont, sans-serif;
 }
 
 /* text in the home page */ 
@@ -138,9 +145,10 @@ h1,h2,h3{
     font-family: 'Inter', sans-serif;
     /* text-align justifies the text in the flexbox*/
     text-align: justify;
-    padding: 10%;
+    padding: 5%;
     justify-content: center                             ;
     align-items: center;
+    font-family: myFirstFont, sans-serif;
 }
  
 
@@ -157,12 +165,19 @@ footer{
  width: 100%; 
 color: white;
 height: 10%;
+font-family: myFirstFont, sans-serif;
 }
  /* the embeded youtube video in present.html*/
  .utubeEmbeded{
     width: 30rem;
     height: 15.05rem;
     margin: 2rem;
+   }
+   /* the music videos in music.html */
+   .utube{
+    width: 24rem;
+    height: 12.05rem;
+    margin: 0.5rem;
    }
  
 /* applies to the things in the DESKTOP screen */
@@ -179,6 +194,7 @@ body{
 
 .Name{
     color :black;
+    font-family: myFirstFont, sans-serif;
 }
 
     .container {
@@ -209,13 +225,13 @@ body{
         padding: 5%;
     width: 100%;
     height: 10%;
-    text-align: center;
     }
 
     /* h1,h2,h3 in the present.html  */
 h1,h2,h3{
     text-align: justify;
     color: black;
+   font-family: myFirstFont, sans-serif; 
 }
 /* text in the home page */ 
 .Intro{
@@ -224,16 +240,12 @@ h1,h2,h3{
     font-family: 'Inter', sans-serif;
     /* text-align justifies the text in the flexbox*/
     text-align: justify;
-    padding: 10%;
+    padding: 5%;
     justify-content: center                             ;
     align-items: center;
+    font-family: myFirstFont, sans-serif;
 }
 }
 
-/* the music videos in music.html */
-   .utube{
-    width: 24rem;
-    height: 12.05rem;
-    margin: 0.5rem;
-   }
+
 
