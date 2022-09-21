@@ -1,281 +1,303 @@
-*{padding:0;
-    margin:0;
-    box-sizing: border-box;}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-html{
-    width: 100%;
-    height: 100%;}
+html {
+  width: 100%;
+  height: 100%;
+}
 
-    @font-face {
-        font-family: myFirstFont;
-        src: url(customFont/metalsmith.ttf);
-    }
-body{
-    height: 100%;
-    max-width: 100%;
-    /*width: 100%; */
-background:#0E3A58 
+@font-face {
+  font-family: myFirstFont;
+  src: url(customFont/metalsmith.ttf);
+}
+body {
+  height: 100%;
+  max-width: 100%;
+  /*width: 100%; */
+  background: #0e3a58;
 }
 
 /* the image in the home page*/
-.image4{  
-    filter: brightness(120%);
-    filter: contrast(120%);
-    filter: drop-shadow(20px 20px 20px #090f44);  
+.image4 {
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(20px 20px 20px #090f44);
 }
 
-  .imageInHomePage{
-    opacity: 1.0;  
-    max-width: 500px;
-    max-height: 500px;
-  }
-  
-  .imageInHomePage:hover {
-    opacity: 0.5;
-  }
+.imageInHomePage {
+  opacity: 1;
+  /* max-width: 500px;
+    max-height: 500px; */
+  width: 100%;
+  max-width: 31rem;
+  height: auto;
+}
 
-header{ 
-    padding:  5%;
-    width: 100%;
-}   
-  
+.imageInHomePage:hover {
+  opacity: 0.5;
+}
+
+header {
+  padding: 5%;
+  width: 100%;
+}
+
 /* navigarion side bar*/
-.menuItem:hover{
-    background-color:#0E3A58;
+.menuItem:hover {
+  background-color: #0e3a58;
 }
 
-.menuItem{
-    padding: 1rem;
+.menuItem {
+  padding: 1rem;
 }
 
-.sideBar{
-    width: 30rem;
-    height:100%;
-       display: flex;
-       flex-direction: column; 
-       color: white; 
-    
+.sideBar {
+  width: 30rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 /* the word 'Menu' at the top of the sidebar */
-.Menu{
-    font-size: 4rem;
+.Menu {
+  font-size: 4rem;
 }
 
-a:link { text-decoration: none; 
-color:white}
+a:link {
+  text-decoration: none;
+  color: white;
+}
 
-a:visited { text-decoration: none; 
-color: white;}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
 
-a:hover { text-decoration: none; }
+a:hover {
+  text-decoration: none;
+}
 
-a:active { text-decoration: none; }
+a:active {
+  text-decoration: none;
+}
 
 /* the gigantic container which contains both the sidebar as well as the big container.
 big container has two small boxes namely, content  1 and content 2 */
-.container{
-    display:flex;
-    flex:1; 
-    padding: 2rem;
-    height:auto;
- }
- .bigContentBox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
+.container {
+  display: flex;
+  flex: 1;
+  padding: 2rem;
+  height: auto;
+}
+.bigContentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
 
-.content1{
- justify-content: center;
-
+.content1 {
+  justify-content: center;
 }
 
 /*audioFiles contains the audio files in music.html*/
-.audioFiles{
-padding: 0.5%;
-margin:2rem;
+.audioFiles {
+  padding: 0.5%;
+  margin: 2rem;
 }
 
-.content2{
-justify-content: center;
-font-size: 1.5rem;
-width: 40rem;
- /*margin-top: 5rem; */
- padding:3rem;
- color: white;
- 
+.content2 {
+  justify-content: center;
+  font-size: 1rem;
+  max-width: 30rem;
+  /*margin-top: 5rem; */
+  padding: 3rem;
+  color: white;
+  /*display: none;*/
+  flex-wrap: wrap;
 }
 
 /*h1 in the fanClub.html*/
-.underConstruction{
-    color:white
+.underConstruction {
+  color: white;
 }
 
 /* h1,h2,h3 in the present.html  */
-h1,h2,h3{
-    text-align: justify;
-    color: white;
-    font-family: myFirstFont, sans-serif; 
+h1,
+h2,
+h3 {
+  text-align: justify;
+  color: white;
+  font-family: myFirstFont, sans-serif;
 }
 
 /* videoFiles contains the CSS styles of content2 section in music.html   */
-.videoFiles{
-   flex-direction: row;
-    font-size: large;  
-    flex-wrap: wrap;
-    flex-shrink: 1;
-    display: flex;
+.videoFiles {
+  flex-direction: row;
+  font-size: large;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  display: flex;
 }
 
-/*  the heading of the home page*/ 
-.Name{
-    color :white;
+/*  the heading of the home page*/
+.Name {
+  color: white;
   font-size: 2rem;
-    font-weight: bolder;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    padding:  1%;
-   
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 1%;
 }
 
-/* text in the home page */ 
-.Intro{
-    color :white;
-    font-weight: bolder;
-    font-family: 'Inter', sans-serif;
-    /* text-align justifies the text in the flexbox*/
-    text-align: justify;
-    padding: 5%;
-    justify-content: center                             ;
-    align-items: center;
-   
+/* text in the home page */
+.Intro {
+  color: white;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  /* text-align justifies the text in the flexbox*/
+  text-align: justify;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
 }
- 
 
-/* song in the home page */ 
-.audioButton{
-    padding:10%   
+/* song in the home page */
+.audioButton {
+  padding: 0%;
+  max-width: 5rem;
 }
-.audioButton:hover{
-    opacity: 0.5;
+
+.audioButton:hover {
+  opacity: 0.5;
 }
- 
-footer{
-    padding: 5%;
- width: 100%; 
-color: white;
-height: 10%;
- 
+
+footer {
+  padding: 5%;
+  width: 100%;
+  color: white;
+  height: 10%;
 }
- /* the embeded youtube video in present.html*/
- .utubeEmbeded{
-    width: 30rem;
-    height: 15.05rem;
-    margin: 2rem;
-   }
-   /* the music videos in music.html */
-   .utube{
-    width: 24rem;
-    height: 12.05rem;
-    margin: 0.5rem;
-   }
-    /* The external link button in present.html  */
-   button{
-    display: block;
-    margin: 0 auto;
-    background-color:#092444;
-    font-size: 20px;
-    border-radius: 50px;
-    padding: 30px 60px;
-    transition: 200ms ease-in-out;  
-    filter: drop-shadow(20px 20px 20px #090f44);  
-    
-} 
- 
+/* the embeded youtube video in present.html*/
+.utubeEmbeded {
+  width: 30rem;
+  height: 15.05rem;
+  margin: 2rem;
+}
+/* the music videos in music.html */
+.utube {
+  width: 24rem;
+  height: 12.05rem;
+  margin: 0.5rem;
+}
+/* The external link button in present.html  */
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #092444;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 30px 60px;
+  transition: 200ms ease-in-out;
+  filter: drop-shadow(20px 20px 20px #090f44);
+}
+
 /* applies to the things in the DESKTOP screen */
 @media only screen and (min-width: 50rem) {
-     header{
-   /*  border-color: black;
+  header {
+    /*  border-color: black;
         border-style: solid;*/
-        width: 100%;  
-    }
+    width: 100%;
+  }
 
-body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,82,110,1) 31%, rgba(0,212,255,1) 100%); 
-}
+  body {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(19, 82, 110, 1) 31%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
 
-.Name{
-    color :black;
-    font-family: 'Inter', sans-serif;
-    
-}
+  .Name {
+    color: black;
+    font-family: "Inter", sans-serif;
+  }
 
-    .container {
-      display: flex 1;
-      flex-direction: row;
-      width: 95%;
-      height: auto;
-      padding:1rem;
-    }
- 
+  .container {
+    display: flex 1;
+    flex-direction: row;
+    width: 95%;
+    height: auto;
+    padding: 1rem;
+  }
 
-    .sideBar{
-        width: 35%;
-         height:100%;
-            display: flex;
-            flex-direction: column;
-            color: white;
-            font-size: 2rem;
-        }
-    
-    .bigContentBox{
+  .sideBar {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .bigContentBox {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    }
+    padding: 1rem;
+  }
+  .imageInHomePage {
+    opacity: 1;
+    /* max-width: 500px;
+    max-height: 500px; */
+    width: 100%;
+    max-width: 31rem;
+    height: auto;
+  }
 
-    footer{
-        padding: 5%;
+  footer {
+    padding: 5%;
     width: 100%;
     height: 10%;
-    }
+  }
 
-    /* h1,h2,h3 in the present.html  */
-h1,h2,h3{
+  /* h1,h2,h3 in the present.html  */
+  h1,
+  h2,
+  h3 {
     text-align: justify;
     color: black;
-   font-family: myFirstFont, sans-serif; 
-}
-/* text in the home page */ 
-.Intro{
-    color :black;
+    font-family: myFirstFont, sans-serif;
+  }
+  /* text in the home page */
+  .Intro {
+    color: black;
     font-weight: bolder;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     /* text-align justifies the text in the flexbox*/
     text-align: justify;
     padding: 5%;
-    justify-content: center                             ;
+    justify-content: center;
     align-items: center;
-
-}
+  }
   /* The external link button in present.html  */
-  button{
+  button {
     display: block;
     margin: 0 auto;
-    background-color:#092444;
+    background-color: #092444;
     font-size: 20px;
     border-radius: 50px;
     padding: 30px 60px;
     transition: 200ms ease-in-out;
-    filter: drop-shadow(20px 20px 20px #090f44);  
-    
-} 
+    filter: drop-shadow(20px 20px 20px #090f44);
+  }
 
-    button:hover{
-        cursor: pointer;
-        opacity: 0.5;
-    }
+  button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 }
-
-
-
