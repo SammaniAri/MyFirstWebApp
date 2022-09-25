@@ -20,6 +20,47 @@ body {
   background: #0e3a58;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  min-width: 5rem;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
 /* the image in the home page*/
 .image4 {
   filter: brightness(120%);
@@ -45,7 +86,7 @@ header {
   width: 100%;
 }
 
-/* navigarion side bar*/
+/* navigaion side bar*/
 .menuItem:hover {
   background-color: #0e3a58;
 }
@@ -57,7 +98,7 @@ header {
 .sideBar {
   width: 30rem;
   height: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   color: white;
 }
@@ -220,6 +261,9 @@ button {
       rgba(19, 82, 110, 1) 31%,
       rgba(0, 212, 255, 1) 100%
     );
+  }
+  .topnav {
+    display: none;
   }
 
   .Name {
