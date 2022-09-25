@@ -4,17 +4,38 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="breakingThings.css">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
     </head>
     
     <body>
             
           <div class= "container">
+          <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="index.html" class="active">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
           
+         
+          <a href="music.html">Music</a>
+          <a href="present.html">Present</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
               <aside class="sideBar"> 
                 
                  <!-- <div class="Menu">Menu</div>  -->
-                    <a href="index.html" class="menuItem">Home Page</a> 
-                    <a href="fanClub.html" class="menuItem">Fan Club</a>
+                  
+                    <a href="index.html" class="menuItem">Home page</a> 
                    <a href="music.html" class="menuItem">Music</a> 
                    <a href="present.html" class="menuItem">Present</a>   
               </aside>
@@ -70,6 +91,7 @@
               Made by Sammani Ariyarathne
           </div>
           </footer>
+           <script src="script.js"></script>
         
     </body>
 </html>
