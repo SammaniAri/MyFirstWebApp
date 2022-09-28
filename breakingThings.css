@@ -144,12 +144,6 @@ big container has two small boxes namely, content  1 and content 2 */
   justify-content: center;
 }
 
-/*audioFiles contains the audio files in music.html*/
-.audioFiles {
-  padding: 0.5%;
-  margin: 2rem;
-}
-
 .content2 {
   justify-content: center;
   font-size: 1rem;
@@ -206,16 +200,6 @@ h3 {
   align-items: center;
 }
 
-/* song in the home page */
-.audioButton {
-  padding: 0%;
-  max-width: 5rem;
-}
-
-.audioButton:hover {
-  opacity: 0.5;
-}
-
 footer {
   padding: 5%;
   width: 100%;
@@ -224,7 +208,7 @@ footer {
 }
 /* the embeded youtube video in present.html*/
 .utubeEmbeded {
-  width: 30rem;
+  max-width: 30rem;
   height: 15.05rem;
   margin: 2rem;
 }
