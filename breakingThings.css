@@ -168,6 +168,13 @@ h3 {
   color: white;
   font-family: myFirstFont, sans-serif;
 }
+/* the image in present.html  */
+.presentImage {
+  width: 100%;
+  height: auto;
+  max-width: 150%;
+  padding: 1%;
+}
 
 /* videoFiles contains the CSS styles of content2 section in music.html   */
 .videoFiles {
@@ -208,9 +215,14 @@ footer {
 }
 /* the embeded youtube video in present.html*/
 .utubeEmbeded {
-  max-width: 30rem;
+  /*max-width: 30rem;
   height: 15.05rem;
-  margin: 2rem;
+  margin: 2rem; */
+
+  width: 100%;
+  height: auto;
+  max-width: 150%;
+  padding: 1%;
 }
 /* the music videos in music.html */
 .utube {
