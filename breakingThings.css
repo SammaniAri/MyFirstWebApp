@@ -218,6 +218,11 @@ footer {
   max-width: 150%;
   margin: 1%;
 }
+
+.presentImage-animated {
+  animation: flip;
+  animation-duration: 10s;
+}
 /* the music videos in music.html */
 .utube {
   width: 24rem;

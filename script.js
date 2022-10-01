@@ -7,3 +7,20 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+function clickImage() {
+  let wobbleWobble = document.getElementById("AnimatedImage");
+  wobbleWobble.classList.add("presentImage-animated");
+}
+
+let wobbleWobble = document.getElementById("AnimatedImage");
+wobbleWobble.addEventListener("click", clickImage);
+/*Animate the image in present.html on click 
+function clickImage() {
+  let wobbleWobble = document.getElementById("AnimatedImage");
+  box.classList.add("presentImage-animated");
+}
+
+let box = document.getElementById("AnimatedImage");
+box.addEventListener("click", clickImage);
+*/
