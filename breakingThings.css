@@ -155,11 +155,6 @@ big container has two small boxes namely, content  1 and content 2 */
   flex-wrap: wrap;
 }
 
-/*h1 in the fanClub.html*/
-.underConstruction {
-  color: white;
-}
-
 /* h1,h2,h3 in the present.html  */
 h1,
 h2,
@@ -167,13 +162,6 @@ h3 {
   text-align: justify;
   color: white;
   font-family: myFirstFont, sans-serif;
-}
-/* the image in present.html  */
-.presentImage {
-  width: 100%;
-  height: auto;
-  max-width: 150%;
-  padding: 1%;
 }
 
 /* videoFiles contains the CSS styles of content2 section in music.html   */
@@ -218,11 +206,17 @@ footer {
   /*max-width: 30rem;
   height: 15.05rem;
   margin: 2rem; */
-
   width: 100%;
   height: auto;
   max-width: 150%;
-  padding: 1%;
+  margin: 1%;
+}
+/* the image in present.html  */
+.presentImage {
+  width: 100%;
+  height: auto;
+  max-width: 150%;
+  margin: 1%;
 }
 /* the music videos in music.html */
 .utube {
@@ -312,6 +306,19 @@ button {
     text-align: justify;
     color: black;
     font-family: myFirstFont, sans-serif;
+  }
+
+  /* the embeded youtube video in present.html*/
+  .utubeEmbeded {
+    height: 500px;
+    width: 500px;
+    margin: 1%;
+  }
+  /* the image in present.html  */
+  .presentImage {
+    height: 500px;
+    width: 500px;
+    margin: 1%;
   }
   /* text in the home page */
   .Intro {
