@@ -200,6 +200,7 @@ footer {
   width: 100%;
   color: white;
   height: 10%;
+  font-size: 1rem;
 }
 /* the embeded youtube video in present.html*/
 .utubeEmbeded {
@@ -302,6 +303,7 @@ button {
     padding: 5%;
     width: 100%;
     height: 10%;
+    font-size: 2rem;
   }
 
   /* h1,h2,h3 in the present.html  */
