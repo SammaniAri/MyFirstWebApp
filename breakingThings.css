@@ -262,6 +262,11 @@ button {
     display: none;
   }
 
+  .navFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
   .Name {
     color: black;
     font-family: "Inter", sans-serif;

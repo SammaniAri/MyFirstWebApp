@@ -1,7 +1,6 @@
-user-agent:*
-allow:/
-user-agent:*
-Disallow:/music.html
+User-agent:*
+Allow:/
+User-agent:*
 Disallow:/present.html
 
  
