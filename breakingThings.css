@@ -228,15 +228,20 @@ footer {
   margin: 0.5rem;
 }
 /* The external link button in present.html  */
-button {
+.externalLink {
   display: block;
   margin: 0 auto;
   background-color: #092444;
+  text-decoration: none;
   font-size: 20px;
   border-radius: 50px;
   padding: 30px 60px;
   transition: 200ms ease-in-out;
   filter: drop-shadow(20px 20px 20px #090f44);
+}
+.externalLink:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 /* applies to the things in the DESKTOP screen */
@@ -341,7 +346,7 @@ button {
     align-items: center;
   }
   /* The external link button in present.html  */
-  button {
+  .externalLink {
     display: block;
     margin: 0 auto;
     background-color: #092444;
@@ -352,7 +357,7 @@ button {
     filter: drop-shadow(20px 20px 20px #090f44);
   }
 
-  button:hover {
+  .externalLink:hover {
     cursor: pointer;
     opacity: 0.5;
   }
