@@ -102,10 +102,6 @@ header {
   flex-direction: column;
   color: white;
 }
-/* the word 'Menu' at the top of the sidebar */
-.Menu {
-  font-size: 4rem;
-}
 
 a:link {
   text-decoration: none;
@@ -133,6 +129,7 @@ big container has two small boxes namely, content  1 and content 2 */
   padding: 2rem;
   height: auto;
 }
+
 .bigContentBox {
   display: flex;
   flex-direction: row;

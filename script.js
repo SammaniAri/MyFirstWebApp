@@ -9,10 +9,10 @@ function myFunction() {
 }
 
 /* Makes the image in present.html flip by mouse-click*/
+let wobbleWobble = document.getElementById("AnimatedImage");
+wobbleWobble.addEventListener("click", clickImage);
+
 function clickImage() {
   let wobbleWobble = document.getElementById("AnimatedImage");
   wobbleWobble.classList.add("presentImage-animated");
 }
-
-let wobbleWobble = document.getElementById("AnimatedImage");
-wobbleWobble.addEventListener("click", clickImage);
